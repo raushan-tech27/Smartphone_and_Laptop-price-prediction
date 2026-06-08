@@ -27,8 +27,8 @@ st.markdown(page_bg, unsafe_allow_html=True)
 
 
 # import the model(smartphone)
-df = pickle.load(open('df.pkl', 'rb'))
-pipe = pickle.load(open('pipe.pkl', 'rb'))
+df = pickle.load(open('df .pkl', 'rb'))
+pipe = pickle.load(open('pipe .pkl', 'rb'))
 
 # import the model(Laptop)
 model= pickle.load(open('pipe1_laptop1.pkl', 'rb'))
